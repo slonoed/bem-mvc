@@ -1,4 +1,4 @@
-modules.define('i-bem__dom', ['jquery'], function(provide, $, DOM) {
+modules.define('i-bem__dom', ['jquery', 'BEMHTML'], function(provide, $, BEMHTML, DOM) {
 
 DOM.decl({ block: 'todos', baseBlock: 'glue' }, {
 
